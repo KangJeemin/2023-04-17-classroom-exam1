@@ -13,18 +13,8 @@ function examtwo(first,second,third) {
     return;
 }
 // 
-function examThree(str){
-    let count = 0;
-    if(typeof str =="string"){
-        while(str[count] !== undefined){
-            count ++
-        }
-    }
-    else{
-        return;
-    }
-    return count;
-}
+
+
 function examFour(array){
     let mininum=array[0]
     for(let i=0;i<array.length;i++){
@@ -41,5 +31,3 @@ function examFive(array){
     }
     return sum;
 }
-
-console.log(examThree("abcd"))
